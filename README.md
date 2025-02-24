@@ -22,5 +22,5 @@ The objective of this project is to predict the success of songs based on their 
      
 # Data Collection 
 Two types of data were collected for this project:
-	* Song Data – This includes attributes such as energy, danceability, loudness, and popularity. It was sourced from Kaggle: Top Hits Spotify (2000–2019).https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019
-	* Lyrics Data – Lyrics were collected by web scraping using the Genius API.
+ Markup : * Song Data – This includes attributes such as energy, danceability, loudness, and popularity. It was sourced from Kaggle: Top Hits Spotify (2000–2019).https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019
+ 	  * Lyrics Data – Lyrics were collected by web scraping using the Genius API.
