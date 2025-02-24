@@ -24,3 +24,6 @@ The objective of this project is to predict the success of songs based on their 
 Two types of data were collected for this project:
  Markup : * Song Data – This includes attributes such as energy, danceability, loudness, and popularity. It was sourced from Kaggle: Top Hits Spotify (2000–2019).https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019
  	  * Lyrics Data – Lyrics were collected by web scraping using the Genius API.
+
+# Data Preprocessing 
+The dataset undergoes multiple preprocessing steps to ensure data quality and consistency. First, missing values are handled by dropping rows with any missing values to maintain data integrity. Next, MinMax Scaling is applied to numerical features, such as danceability, energy, loudness, tempo, and valence, to normalize them within the range of 0 to 1. This helps in ensuring that all numerical attributes are on a comparable scale without distorting their relative differences. The cleaned and scaled dataset is then stored in Snowflake for further analysis.
