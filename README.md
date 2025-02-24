@@ -2,7 +2,7 @@
 A project analyzing song features and lyrics to predict song success using Machine Learning
 The objective of this project is to predict the success of songs based on their musical features and lyrics. Due to limitations with the Spotify API, we switched to a normal dataset containing features like danceability, energy, tempo, valence, and loudness. Additionally, we extracted lyrics from Genius API for text-based analysis. The goal is to train a machine learning model to predict a song’s success using audio characteristics and textual sentiment.
 
-## Current Approach
+# Current Approach
 	1.Data Collection
 	    •Used a pre-existing dataset containing song features.
 	    •Extracted lyrics for 100 songs using the Genius API.
@@ -19,3 +19,4 @@ The objective of this project is to predict the success of songs based on their 
 	5.Database Integration
 	    •Database Selection: Snowflake
 	    •Reason: Handles structured data, supports large-scale analytics, and integrates well with ML pipelines.
+     
