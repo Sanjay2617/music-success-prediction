@@ -4,18 +4,18 @@ The objective of this project is to predict the success of songs based on their 
 
 ## Current Approach
 	1.Data Collection
-	    •	Used a pre-existing dataset containing song features.
-	    •	Extracted lyrics for 100 songs using the Genius API.
+	    •Used a pre-existing dataset containing song features.
+	    •Extracted lyrics for 100 songs using the Genius API.
 	2.Data Preprocessing
-	    •	Cleaned missing values and duplicates.
-	    •	Normalized song features (danceability, energy, etc.).
-	    •	Processed textual data (lyrics) for sentiment analysis.
+	    •Cleaned missing values and duplicates.
+	    •Normalized song features (danceability, energy, etc.).
+	    •Processed textual data (lyrics) for sentiment analysis.
 	3.Feature Engineering
-	    •	Extracted key numerical (danceability, energy, tempo, valence, loudness) and textual (sentiment score) features.
-	    •	Created a combined dataset with both audio features & lyrics.
+	    •Extracted key numerical (danceability, energy, tempo, valence, loudness) and textual (sentiment score) features.
+	    •Created a combined dataset with both audio features & lyrics.
 	4.Machine Learning Models
-	    •	Regression-based models (Random Forest, XGBoost) to predict song popularity.
-	    •	Classification models (Logistic Regression, Neural Networks) to classify songs into hit or non-hit categories.
+	    •Regression-based models (Random Forest, XGBoost) to predict song popularity.
+	    •Classification models (Logistic Regression, Neural Networks) to classify songs into hit or non-hit categories.
 	5.Database Integration
-	    •	Database Selection: Snowflake
-	    •	Reason: Handles structured data, supports large-scale analytics, and integrates well with ML pipelines.
+	    •Database Selection: Snowflake
+	    •Reason: Handles structured data, supports large-scale analytics, and integrates well with ML pipelines.
