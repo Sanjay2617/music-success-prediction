@@ -23,4 +23,5 @@ The objective of this project is to predict the success of songs based on their 
 # Data Collection 
 Two types of data were collected for this project:
 	1.	Song Data – This includes attributes such as energy, danceability, loudness, and popularity. It was sourced from Kaggle: Top Hits Spotify (2000–2019).
+ 
  	2.	Lyrics Data – Lyrics were collected by web scraping using the Genius API.
