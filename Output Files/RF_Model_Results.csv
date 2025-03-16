@@ -1,0 +1,7 @@
+Metric,Value
+Training Accuracy,0.9326886030491179
+Validation Accuracy,0.8415435496323396
+Testing Accuracy,0.7613912257918808
+Testing F1-Score,0.7752061618578586
+Testing Precision,0.794982090752581
+Testing Recall,0.7613912257918808
